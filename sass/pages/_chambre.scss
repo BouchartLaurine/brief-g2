@@ -1,20 +1,16 @@
 p {
   color: rgb(148, 145, 145);
 }
-
 h1 {
   color: whitesmoke;
 }
-
 h2 {
   color: whitesmoke;
 }
-
 body {
-  background-color: rgb(34, 34, 34);
+  background-color: rgba(34, 34, 34, 255);
   margin: auto;
 }
-
 .overlay {
   background-size: contain;
   height: 900px;
@@ -26,19 +22,15 @@ body {
 .check {
   display: flex;
 }
-
 .room-details {
   display: flex;
 }
-
 ul {
   color: rgb(148, 145, 145);
 }
-
 li {
   list-style-type: none;
 }
-
 .Ducsman {
   color: #b0844c;
-}/*# sourceMappingURL=main.css.map */
+}
