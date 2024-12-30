@@ -46,6 +46,17 @@ li {
 
 body {
   height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.star5 {
+  width: 10em;
+}
+
+nav {
+  width: 500px;
+  flex-direction: column;
 }
 
 .header_index {
@@ -53,17 +64,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   height: 115vh;
-  border: 1px solid red;
-}
-.header_index .star5 {
-  width: 5em;
 }
 .header_index h1 {
   font-size: 7em;
   font-weight: 100;
   letter-spacing: 30px;
+  margin: 0;
+}
+.header_index p {
+  color: white;
+  letter-spacing: 5px;
+  padding: 1em;
+  margin: 2em;
+}
+.header_index p:last-of-type {
+  border: 1px solid white;
+  letter-spacing: 2px;
 }
 
 .section1_index {
@@ -75,9 +94,6 @@ body {
 }
 .section1_index__text {
   width: 90%;
-}
-.section1_index__text .star5 {
-  width: 20%;
 }
 .section1_index__img {
   width: 20%;
