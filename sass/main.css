@@ -41,4 +41,50 @@ li {
 
 .Ducsman {
   color: #b0844c;
+}
+
+body {
+  height: 100%;
+}
+
+.header_index {
+  background-image: url(/ressources_Ducsman/images/slider/2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 115vh;
+  border: 1px solid red;
+}
+.header_index .star5 {
+  width: 5em;
+}
+.header_index h1 {
+  font-size: 7em;
+  font-weight: 100;
+  letter-spacing: 30px;
+}
+
+.section1_index {
+  display: flex;
+  flex-direction: row;
+  background-color: #222222;
+  width: 100%;
+  border: 1px solid blue;
+}
+.section1_index__text {
+  width: 90%;
+}
+.section1_index__text .star5 {
+  width: 20%;
+}
+.section1_index__img {
+  width: 20%;
+  padding: 2em;
+}
+.section1_index__img--1 {
+  padding-top: 10em;
+}
+.section1_index__img--2 {
+  padding-bottom: 10em;
 }/*# sourceMappingURL=main.css.map */
