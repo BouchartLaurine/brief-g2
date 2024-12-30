@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <link rel="stylesheet" href="sass/main.css" />
+    <title>Ducsman - Contact</title>
+    <link rel="stylesheet" href="contact.scss" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Ducsman</h1>
+        <p>Dormez comme jamais</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="chambre.html">Chambres & Suites</a></li>
+          <li><a href="#">Restaurant</a></li>
+          <li><a href="#">Centre de bien-être</a></li>
+          <li><a href="#">Actualité</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-info">
+        <h2>Ducsman</h2>
+        <p>
+          Nous sommes à votre disposition pour toute question relative à votre
+          séjour ou pour préparer le plus luxueux des voyages.
+        </p>
+        <ul>
+          <li><strong>Informations & Réservation :</strong> 03 20 01 02 03</li>
+          <li>
+            <strong>E-mail :</strong>
+            <a href="mailto:info@ducsman-group.com">info@ducsman-group.com</a>
+          </li>
+          <li>
+            <strong>Adresse :</strong> 23 avenue des Nations Unies, 75001 Paris
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact-form">
+        <h2>Restons en contact</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Votre nom *" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Votre e-mail *"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Votre numéro de téléphone"
+            />
+            <input type="text" name="subject" placeholder="Sujet" />
+          </div>
+          <textarea name="message" placeholder="Message *" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+
+      <section class="map">
+        <iframe
+          src="https://g.co/kgs/oa1S19y"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+
+      <section class="about-contact">
+        <div>
+          <h2>À propos de notre hôtel</h2>
+          <p>
+            Le seul hôtel 5 étoiles de Paris. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Enim voluptate quasi consequatur
+            officia quo esse consequuntur, adipisci, quod molestias laudantium
+            iusto dolore totam sapiente perferendis voluptatum iure ut numquam
+            qui.
+          </p>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <p>23 avenue des Nations Unies<br />75001 Paris</p>
+          <p>03 20 01 02 03</p>
+          <p><a href="mailto:info@ducsman.com">info@ducsman.com</a></p>
+        </div>
+        <div class="reseaux">
+          <img src="logo/instagram.png" alt="instagram" />
+          <img src="logo/twitter.png" alt="twitter" />
+          <img src="logo/youtube.png" alt="youtube" />
+          <img src="logo/facebook.png" alt="facebook" />
+          <img
+            src="logo/printerest.png"
+            alt="printerest"
+            height="9%"
+            width="5%"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Mentions légales · Conditions Générales de Ventes · Politique de
+        confidentialité · © Copyright 2023 - Ducsman Group
+      </p>
+    </footer>
+  </body>
 </html>
