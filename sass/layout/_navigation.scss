@@ -16,8 +16,6 @@ p {
 
 .nav {
   background-color: #111;
-  padding: 20px;
-
   .logo {
     text-align: left;
     .title {
@@ -31,7 +29,6 @@ p {
 
   ul {
     list-style: none;
-    display: flex;
     gap: 25px;
     display: flex;
     flex-direction: column;

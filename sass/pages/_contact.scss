@@ -33,7 +33,7 @@ main {
 .contact-form,
 .map,
 .about-contact {
-  max-width: 900;
+  max-width: auto;
   margin: auto;
 }
 .contact-info h2 {
@@ -131,14 +131,6 @@ main {
     }
   }
 }
-
-/* Réseaux */
-
-.reseaux {
-  margin-top: 5%;
-  text-align: center;
-}
-
 /* Footer */
 footer {
   text-align: center;
