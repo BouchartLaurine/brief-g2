@@ -1,28 +1,33 @@
 p {
   color: rgb(148, 145, 145);
-  width: 80%;
+  width: auto;
 }
 h1 {
   color: whitesmoke;
+  font-family: "playfair display";
+  font-size: 7em;
+  font-weight: lighter;
+  letter-spacing: 30px;
+  text-align: center;
 }
 h2 {
   color: whitesmoke;
 }
 
 body {
-  background-color: rgba(34, 34, 34, 255);
-  margin: auto;
-  width: 60%;
+  background-color: #222222;
+  display: flex;
+  flex-direction: row;
+  width: auto;
   height: auto;
 }
 .overlay {
-  height: auto;
   background-size: cover;
   width: 100%;
-  color: white;
+  color: whitesmoke;
   text-align: center;
   position: relative;
-  height: 500px;
+  height: 100vh;
 }
 
 .check {
@@ -48,6 +53,7 @@ li {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+
 h3 {
   color: whitesmoke;
 }
@@ -56,5 +62,21 @@ h3 {
   margin: 50px;
 }
 .Aménagements {
-  width: 50%;
+  width: 60%;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(108, 106, 106);
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+h4 {
+  text-align: center;
+  font-family: "playfair display";
+  font-size: 40px;
+  font-weight: lighter;
+  color: #b0844c;
 }
