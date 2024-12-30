@@ -91,61 +91,42 @@ body {
 }
 
 body {
-  font-family: "Arial", sans-serif;
-  color: #bbb;
+  font-family: "Arial, sans-serif";
   background-color: #181818;
-  margin: 10;
-  padding: 0;
 }
 
-/* Header */
-header {
+/* Nav */
+.nav {
   background-color: #111;
-  padding: 20px 0;
+  padding: 20px;
+  max-width: 20%;
+  max-height: 80%;
 }
-
-header .logo {
-  text-align: center;
+.nav .logo {
+  text-align: left;
 }
-
-header .logo h1 {
+.nav .logo h1 {
   font-size: 24px;
-  color: #fff;
+  color: #b3865b;
   margin: 0;
 }
-
-header .logo p {
-  font-size: 14px;
-  color: #b3865b;
-  margin: 5px 0 0;
+.nav .logo h1 p {
+  color: #bbb;
 }
-
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #111;
-}
-
-nav ul {
+.nav ul {
   list-style: none;
   display: flex;
-  padding: 0;
-  margin: 0;
+  gap: 20px;
+  display: flex;
   flex-direction: column;
 }
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
+.nav ul a {
   color: #fff;
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s ease;
 }
-
-nav ul li a:hover {
+.nav ul a:hover {
   color: #b3865b;
 }
 
@@ -153,27 +134,34 @@ nav ul li a:hover {
   color: #b3865b;
 }
 
+/* Main */
+main {
+  padding-left: 10%;
+  max-width: 800%;
+  max-height: 80%;
+}
+main .mail {
+  text-decoration: none;
+  color: #bbb;
+}
+
 /* Contact Section */
 .contact-info,
 .contact-form,
 .map,
 .about-contact {
-  padding: 40px 20px;
   max-width: 1200px;
   margin: auto;
 }
 
 .contact-info h2 {
-  color: #b3865b;
   margin-bottom: 20px;
 }
-
-.contact-info ul {
+.contact-info h2 ul {
   list-style: none;
   padding: 0;
 }
-
-.contact-info ul li {
+.contact-info h2 ul li {
   margin-bottom: 10px;
 }
 
@@ -197,7 +185,6 @@ nav ul li a:hover {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 10px;
   border: 1px solid #333;
   background-color: #222;
   color: #fff;
@@ -240,13 +227,11 @@ nav ul li a:hover {
   gap: 20px;
   margin-top: 40px;
 }
-
 .about-contact div {
   width: 48%;
   color: #bbb;
 }
-
-.about-contact a {
+.about-contact div a {
   text-decoration: none;
   border-bottom: 2px solid #b3865b;
   padding-bottom: 5px;
@@ -254,6 +239,11 @@ nav ul li a:hover {
 }
 
 /* Réseaux */
+.reseaux {
+  margin-top: 5%;
+  text-align: center;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -262,8 +252,4 @@ footer {
   padding: 20px 0;
   font-size: 12px;
   border-top: 1px solid #333;
-}
-
-footer p {
-  margin: 0;
 }/*# sourceMappingURL=main.css.map */
