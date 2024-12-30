@@ -1,7 +1,13 @@
+// Variables
+@import "abstracts/variabless";
+
+//Typography
+@import "base/typography";
+
 // Pages
-@import "./pages/chambre.scss";
-@import "./pages/home.scss";
-@import "./pages/contact";
+@import "pages/chambre.scss";
+@import "pages/home.scss";
+@import "pages/contact";
 
 // Nav
-@import "./layout/navigation";
+@import "layout/navigation";
