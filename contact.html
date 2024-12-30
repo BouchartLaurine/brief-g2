@@ -4,16 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ducsman - Contact</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="sass/main.css" />
   </head>
   <body>
     <nav class="nav">
       <div class="logo">
-        <h1>Ducsman</h1>
-        <p>Dormez comme jamais</p>
-
+        <img
+          width="200"
+          height="50"
+          src="logo/5stars-no-background.png"
+          alt="5 étoiles"
+        />
+        <h1 class="title">DUCSMAN</h1>
+        <p class="title-p">Dormez comme jamais</p>
         <br />
-
         <ul>
           <li><a href="index.html">Accueil</a></li>
           <li><a href="#">À propos</a></li>
@@ -25,7 +33,6 @@
         </ul>
       </div>
     </nav>
-
     <main>
       <section class="contact-info">
         <h2>Ducsman</h2>
@@ -33,22 +40,26 @@
           Nous sommes à votre disposition pour toute question relative à votre
           séjour ou pour préparer le plus luxueux des voyages.
         </p>
-        <ul>
-          <img src="logo/telephone.png" alt="" />
-          <li><strong>Informations & Réservation :</strong> 03 20 01 02 03</li>
+        <ul class="infos">
+          <div class="align">
+            <img src="logo/telephone.png" alt="logo_tel" />
+            <li>
+              <strong>Informations & Réservation :</strong> 03 20 01 02 03
+            </li>
+          </div>
           <li>
-            <img src="logo/" alt="logo_lettre" />
+            <img src="logo/email.png" alt="logo_lettre" />
             <strong>E-mail :</strong>
             <a class="or" href="mailto:info@ducsman-group.com"
               >info@ducsman-group.com</a
             >
           </li>
           <li>
+            <img src="logo/espace-reserve.png" alt="logo_adresse" />
             <strong>Adresse :</strong> 23 avenue des Nations Unies, 75001 Paris
           </li>
         </ul>
       </section>
-
       <section class="contact-form">
         <h2>Restons en contact</h2>
         <form action="#" method="post">
@@ -73,7 +84,6 @@
           <button type="submit">Envoyer</button>
         </form>
       </section>
-
       <section class="map">
         <iframe
           src="https://g.co/kgs/oa1S19y"
@@ -85,7 +95,6 @@
         >
         </iframe>
       </section>
-
       <section class="about-contact">
         <div>
           <h2>À propos de notre hôtel</h2>
@@ -111,8 +120,8 @@
           <img
             src="logo/printerest.png"
             alt="printerest"
-            height="9%"
-            width="5%"
+            height="4%"
+            width="8%"
           />
         </div>
       </section>

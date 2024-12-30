@@ -1,61 +1,31 @@
 body {
-  font-family: "Arial, sans-serif";
-  background-color: #181818;
+  // font-family: "Arial, sans-serif";
+  background-color: #222222;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  color: whitesmoke;
+}
+p {
+  color: rgb(148, 145, 145);
 }
 
 /* Nav */
-
-.nav {
-  background-color: #111;
-  padding: 20px;
-  max-width: 20%;
-  max-height: 80%;
-
-  .logo {
-    text-align: left;
-    h1 {
-      font-size: 24px;
-      color: #b3865b;
-      margin: 0;
-      p {
-        color: #bbb;
-      }
-    }
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-
-    a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 14px;
-      transition: color 0.3s ease;
-      &:hover {
-        color: #b3865b;
-      }
-    }
-  }
-}
 
 .or {
   color: #b3865b;
 }
 /* Main */
 main {
-  padding-left: 10%;
-  max-width: 800%;
-  max-height: 80%;
+  margin-top: 0%;
+
   .mail {
     text-decoration: none;
     color: #b3865b;
   }
 }
-
 /* Contact Section */
 
 .contact-info,
@@ -65,7 +35,6 @@ main {
   max-width: 1200px;
   margin: auto;
 }
-
 .contact-info h2 {
   margin-bottom: 20px;
   ul {
@@ -77,6 +46,12 @@ main {
   }
 }
 
+.align {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .contact-info ul li span {
   font-weight: bold;
   color: #fff;
@@ -86,6 +61,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  justify-content: right;
 }
 
 .contact-form .form-group {
