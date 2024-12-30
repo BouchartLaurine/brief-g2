@@ -6,35 +6,12 @@ body {
   background-color: #222222;
 }
 
-<<<<<<< HEAD
-h1 {
-  font-family: "Playfair Display";
-  font-size: 7em;
-  font-weight: 400;
-  letter-spacing: 30px;
-  margin: 0;
-}
-
-p {
-  color: rgb(148, 145, 145);
-}
-
-=======
->>>>>>> 7639ea4cd8ead11329aea57555f841f4fca1395b
 .star5 {
   width: 10em;
 }
 
-<<<<<<< HEAD
 //HEADER//
 
-=======
-
-
-//HEADER//
-
-
->>>>>>> 7639ea4cd8ead11329aea57555f841f4fca1395b
 .header_index {
   background-image: url(/ressources_Ducsman/images/slider/2.jpg);
   display: flex;
@@ -46,32 +23,17 @@ p {
   text-align: center;
   height: 100vh;
 
-  p {
-    color: white;
+  .blabla {
     letter-spacing: 5px;
     padding: 1em;
     margin: 2em;
+    color: white;
 
-<<<<<<< HEAD
     &:last-of-type {
       border: 1px solid white;
       letter-spacing: 2px;
     }
   }
-=======
-	.blabla {
-		letter-spacing: 5px;
-		padding: 1em;
-		margin: 2em;
-		color: white;
-
-		&:last-of-type {
-			border: 1px solid white;
-			letter-spacing: 2px;
-
-		}
-	}
->>>>>>> 7639ea4cd8ead11329aea57555f841f4fca1395b
 }
 
 //SECTION1//
@@ -81,26 +43,18 @@ p {
   flex-direction: row;
   background-color: #222222;
   width: 100%;
+  color: $color-h3;
   border: 1px solid blue;
 
-<<<<<<< HEAD
   &__text {
     width: 90%;
+    padding: 5em;
   }
-=======
-	display: flex;
-	flex-direction: row;
-	background-color: #222222;
-	width: 100%;
-	color: $color-h3;
-	border: 1px solid blue;
->>>>>>> 7639ea4cd8ead11329aea57555f841f4fca1395b
 
   &__img {
     width: 20%;
     padding: 2em;
 
-<<<<<<< HEAD
     &--1 {
       padding-top: 10em;
     }
@@ -110,118 +64,5 @@ p {
     }
   }
 }
-=======
-	&__text {
-		width: 90%;
-		padding: 5em;
-	}
-
-	&__img {
-		width: 20%;
-		padding: 2em;
-
-		&--1 {
-			padding-top: 10em;
-		}
-
-		&--2 {
-			padding-bottom: 10em;
-
-		}
-	}
-}
-
-
-
-
-
-//SECTION2//
->>>>>>> 7639ea4cd8ead11329aea57555f841f4fca1395b
-body {
-	height: auto;
-	width: auto;
-	display: flex;
-	flex-direction: row;
-	background-color: #222222;
-}
-
-.star5 {
-	width: 10em;
-}
-
-
-
-//HEADER//
-
-
-.header_index {
-	background-image: url(/ressources_Ducsman/images/slider/2.jpg);
-	display: flex;
-	background-size: cover;
-	background-repeat: no-repeat;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	height: 100vh;
-
-
-	.blabla {
-		letter-spacing: 5px;
-		padding: 1em;
-		margin: 2em;
-		color: white;
-
-		&:last-of-type {
-			border: 1px solid white;
-			letter-spacing: 2px;
-
-		}
-	}
-}
-
-
-
-
-
-
-
-
-//SECTION1//
-
-
-.section1_index {
-
-	display: flex;
-	flex-direction: row;
-	background-color: #222222;
-	width: 100%;
-	color: $color-h3;
-	border: 1px solid blue;
-
-
-	&__text {
-		width: 90%;
-		padding: 5em;
-	}
-
-	&__img {
-		width: 20%;
-		padding: 2em;
-
-		&--1 {
-			padding-top: 10em;
-		}
-
-		&--2 {
-			padding-bottom: 10em;
-
-		}
-	}
-}
-
-
-
-
 
 //SECTION2//
