@@ -61,20 +61,27 @@
 
 // ..........
 .contact-form {
-  border: solid red;
-  border-width: 10px 10px;
-
-  max-width: 50%;
+  // border: solid red;
+  // border-width: 10px 10px;
+  margin-left: 10%;
   display: flex;
   flex-direction: column;
+  padding-left: 20%;
 }
 
 // Title + infos
 .contact-header,
 .contact-info {
-  border: solid blue;
-  border-width: 10px 10px;
-  max-width: 50%;
+  // border: solid blue;
+  // border-width: 10px 10px;
+  max-width: 30%;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .contact-header {
@@ -87,16 +94,20 @@
 // Button
 .contact-form button {
   background-color: #b3865b;
-
+  color: whitesmoke;
   border: none;
-  padding: 12px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+  height: 50px;
+  width: 200px;
   button:hover {
     background-color: #8e684a;
   }
+}
+
+.button-submit {
+  font-weight: 400;
+  font-size: 1em;
+  color: whitesmoke;
+  letter-spacing: 5%;
 }
 
 /* Map */
@@ -104,7 +115,6 @@
   width: 100%;
   height: 300px;
   border: none;
-  border-radius: 5px;
 }
 
 /* About and Contact */
@@ -151,9 +161,4 @@ footer {
       margin-bottom: 10px;
     }
   }
-}
-
-.infos-logo {
-  max-width: 16px;
-  max-height: 16px;
 }
