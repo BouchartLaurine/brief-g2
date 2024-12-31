@@ -147,18 +147,31 @@
 //SECTION 3//
 
 .section3_index {
-  border: 1px solid red;
   display: flex;
   flex-flow: row wrap;
+  padding: 4em 6em;
+  margin: 5em 0em;
 
   &__text,
   img {
     width: 50%;
   }
 
-  &__text {}
+  &__text {
+    box-sizing: border-box;
+    padding: 3em;
+    padding-top: 6em;
 
-  ;
+    p {
+      line-height: 2em;
+      padding: 2em 0em;
+      padding-bottom: 3em;
+    }
+
+
+  }
+
+
 
 
 }
