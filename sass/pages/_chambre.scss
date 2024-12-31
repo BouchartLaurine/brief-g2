@@ -9,19 +9,17 @@
 
 .check {
   display: flex;
-}
-.room-details {
-  display: flex;
-  justify-content: space-between;
-  gap: 10%;
-}
-.logo {
   ul {
     color: rgb(148, 145, 145);
     li {
       list-style-type: none;
     }
   }
+}
+.room-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
 }
 
 .Ducsman {
@@ -37,18 +35,58 @@
   h3 {
     color: whitesmoke;
   }
+  .etoiles {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+  }
 }
 
 .Hero-text {
   margin: 60px;
 }
 .Aménagements {
-  width: 40%;
+  width: auto;
+  h2 {
+    text-align: center;
+  }
+  ul {
+    color: rgb(148, 145, 145);
+    li {
+      list-style-type: none;
+    }
+  }
+  .ti-user {
+    color: #b0844c;
+    margin: 2%;
+  }
+  .flaticon-wifi {
+    color: #b0844c;
+    margin: 2%;
+  }
+  .ti-alarm-clock {
+    color: #b0844c;
+    margin: 2%;
+  }
+
+  .flaticon-breakfast {
+    color: #b0844c;
+    margin: 2%;
+  }
+  .flaticon-towel {
+    color: #b0844c;
+    margin: 2%;
+  }
+  .flaticon-swimming {
+    color: #b0844c;
+    margin: 2%;
+  }
 }
+
 .btn {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: rgb(108, 106, 106);
+  padding: 20px 30px;
+  background-color: rgb(80, 78, 78);
   color: white;
   text-decoration: none;
   border: none;
@@ -76,21 +114,11 @@
   }
 }
 
-/* Réseaux */
-
 .reseaux {
   margin-top: 5%;
   text-align: center;
 }
-.etoiles {
-  text-align: center;
-  width: 100px;
-  height: 30px;
-}
 .checkmark {
   width: 20px;
   height: 20px;
-}
-.ti-user {
-  color: #b0844c;
 }
