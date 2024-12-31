@@ -1,3 +1,14 @@
+body {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #222222;
+  color: whitesmoke;
+
+}
+
+
 h1 {
   font-family: "Playfair Display";
   font-size: 7em;
@@ -10,6 +21,7 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 3em;
+  color: whitesmoke;
 }
 
 h3 {
