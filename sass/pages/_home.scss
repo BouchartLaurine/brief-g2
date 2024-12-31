@@ -2,15 +2,6 @@
   width: 10em;
 }
 
-//HEADER//
-
-
-
-
-
-
-
-
 //SECTION1//
 
 .section1_index {
@@ -82,8 +73,7 @@
       }
 
       h3,
-      h2,
-      a {
+      h2 {
         position: absolute;
         color: whitesmoke;
         text-decoration: none;
@@ -100,17 +90,6 @@
         bottom: 0.5em;
         left: 0.5em;
         font-size: 3em;
-      }
-
-      a {
-        top: 4em;
-        right: 0em;
-        transform: rotate(270deg);
-        border: 1px solid whitesmoke;
-        letter-spacing: 3px;
-        padding: 0.5em 1em;
-        font-family: "Barlow Condensed";
-        font-size: 1.5em
       }
     }
   }
