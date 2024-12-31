@@ -5,4 +5,18 @@ footer {
   padding: 20px 0;
   font-size: 12px;
   border-top: 1px solid #333;
+  .reseaux {
+    margin-top: 0%;
+    display: flex;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 10%;
+    padding-left: 10%;
+  }
+  .infos-logo {
+    max-width: 16px;
+    max-height: 16px;
+  }
 }
