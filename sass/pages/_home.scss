@@ -139,19 +139,19 @@
   border: 1px solid blueviolet;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
 
   &__bloc_option {
     border: 1px solid red;
+    background-color: $index-scndcolor;
+    padding: 2em;
+    box-sizing: border-box;
+    width: 33%;
+
+
 
 
     h2 {
       font-size: 2em;
-    }
-
-    &--1 h2 {
-      font-size: 3em;
-      margin: 0;
     }
 
     .flaticon-phone,
@@ -163,5 +163,34 @@
     .ti-close {
       color: rgb(148, 145, 145);
     }
+
+    .option-list {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        padding: 0.5em 0em;
+      }
+    }
+
+    .gold {
+      font-size: 2em;
+    }
+
+    &--1 {
+      background-color: transparent;
+
+      .gold {
+        font-size: 1em;
+      }
+
+      h2 {
+        font-size: 3em;
+        margin: 0;
+      }
+    }
+
+
+
   }
 }
