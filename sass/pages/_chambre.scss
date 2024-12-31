@@ -20,6 +20,7 @@
   display: flex;
   justify-content: space-between;
   gap: 10%;
+  margin-right: 10%;
 }
 
 .Ducsman {
@@ -47,6 +48,9 @@
 }
 .Aménagements {
   width: auto;
+  .features {
+    padding: 0%;
+  }
   h2 {
     text-align: center;
   }
@@ -54,11 +58,12 @@
     color: rgb(148, 145, 145);
     li {
       list-style-type: none;
+      margin: 6%;
     }
   }
   .ti-user {
     color: #b0844c;
-    margin: 2%;
+    margin-right: 3%;
   }
   .flaticon-wifi {
     color: #b0844c;
@@ -98,7 +103,7 @@
   padding-top: 5px;
 }
 
-.about-contact {
+.about {
   display: flex;
   justify-content: space-between;
   gap: 80px;
