@@ -1,0 +1,23 @@
+.header_index {
+  background-image: url(/ressources_Ducsman/images/slider/2.jpg);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+
+  h3 {
+    letter-spacing: 5px;
+    padding: 1em;
+    margin: 2em;
+    color: white;
+
+    &:last-of-type {
+      border: 1px solid white;
+      letter-spacing: 2px;
+    }
+  }
+}

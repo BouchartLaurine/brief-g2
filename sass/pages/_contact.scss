@@ -4,7 +4,7 @@
 }
 
 /* Main */
-main {
+.main-contact {
   margin-top: 0%;
   .mail {
     text-decoration: none;
@@ -14,8 +14,7 @@ main {
 
 /* Contact Section */
 
-.contact-info h2 {
-  margin-top: 10%;
+.contact-info {
   p {
     color: rgb(148, 145, 145);
   }
@@ -33,11 +32,6 @@ main {
   display: flex;
   align-items: center;
   gap: 5px;
-}
-
-.contact-info ul li span {
-  font-weight: bold;
-  color: #fff;
 }
 
 .contact-form form {
@@ -64,10 +58,36 @@ main {
   color: #fff;
   border-radius: 5px;
 }
+
+// ..........
+.contact-form {
+  border: solid red;
+  border-width: 10px 10px;
+
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+// Title + infos
+.contact-header,
+.contact-info {
+  border: solid blue;
+  border-width: 10px 10px;
+  max-width: 50%;
+}
+
+.contact-header {
+  float: left;
+  .contact-info {
+    float: left;
+  }
+}
+
 // Button
 .contact-form button {
   background-color: #b3865b;
-  color: #fff;
+
   border: none;
   padding: 12px 20px;
   cursor: pointer;
@@ -85,7 +105,6 @@ main {
   height: 300px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* About and Contact */
@@ -101,7 +120,6 @@ main {
       text-decoration: none;
       border-bottom: 2px solid #b3865b;
       padding-bottom: 5px;
-      color: #bbb;
     }
   }
 }
@@ -109,30 +127,33 @@ main {
 // Footer
 
 footer {
-  // .
-
-  // .
   text-align: center;
   background-color: #111;
   color: #777;
-  padding: 20px 0;
-  font-size: 12px;
-  border-top: 1px solid #333;
-  .reseaux {
-    margin-top: 0%;
-    display: flex;
-    align-items: start;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    margin: 10%;
-    padding-left: 10%;
-  }
-  .infos-logo {
-    max-width: 16px;
-    max-height: 16px;
+}
+
+.reseaux {
+  // .
+  border: solid red;
+  border-width: 10px 10px;
+  // .
+  margin-top: 0%;
+  display: flex;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 10%;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 10px;
+    }
   }
 }
 
-.tel {
+.infos-logo {
+  max-width: 16px;
+  max-height: 16px;
 }

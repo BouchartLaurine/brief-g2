@@ -36,41 +36,36 @@
         </ul>
       </div>
     </nav>
-    <main>
-      <div class="contact-info">
-        <h2>Ducsman</h2>
+    <main class="main-contact">
+      <section class="contact-header">
+        <h1>Duscman</h1>
         <p>
-          Nous sommes à votre disposition pour toute question relative à votre
-          séjour ou pour préparer le plus luxueux des voyages.
+          Nous sommes à votre disposition pour toute question concernant votre
+          séjour ou pour organiser votre voyage.
         </p>
-      </div>
+      </section>
 
-      <div class="align">
-        <ul class="infos">
-          <li class="tel">
-            <img src="logo/telephone.png" alt="logo_tel" />
-            <strong>Informations & Réservation :</strong>
-            <br />
-            <span class="or">03 20 01 02 03</span>
-          </li>
-
+      <section class="contact-info">
+        <ul>
           <li>
-            <img src="logo/email.png" alt="logo_lettre" />
+            <img src="logo/telephone.png" alt="Téléphone" />
+            <strong>Informations & Réservations :</strong>
+            <h3>03 20 01 02 03</h3>
+          </li>
+          <li>
+            <img src="logo/email.png" alt="E-mail" />
             <strong>E-mail :</strong>
-
-            <a class="or" href="mailto:info@ducsman-group.com"
-              >info@ducsman-group.com</a
+            <a href="mailto:info@ducsman-group.com" class="mail"
+              ><h3>info@ducsman-group.com</h3></a
             >
           </li>
-
           <li>
-            <img src="logo/espace-reserve.png" alt="logo_adresse" />
-            <strong>Adresse :</strong>
-
-            <span class="or">23 avenue des Nations Unies, 75001 Paris</span>
+            <img src="logo/espace-reserve.png" alt="Adresse" />
+            <strong>Adresse</strong>
+            <h3>23 avenue des Nations Unies, 75001 Paris</h3>
           </li>
         </ul>
-      </div>
+      </section>
 
       <section class="contact-form">
         <h2>Restons en contact</h2>
@@ -89,25 +84,30 @@
               type="tel"
               name="phone"
               placeholder="Votre numéro de téléphone *"
+              required
             />
-            <input type="text" name="subject" placeholder="Sujet *" />
+            <input type="text" name="subject" placeholder="Sujet *" required />
           </div>
-          <textarea name="message" placeholder="Message *" required></textarea>
+          <textarea
+            name="message"
+            placeholder="Votre message *"
+            required
+          ></textarea>
           <button type="submit">Envoyer</button>
         </form>
       </section>
+
       <section class="map">
         <iframe
-          src="https://maps.app.goo.gl/gyAuHaR9Vwmhi9At9"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9055605794966!2d2.288740815674204!3d48.86061107928708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdfc8d4f7d1%3A0x22b46e4b9f307cd!2s23%20Avenue%20des%20Nations%20Unies%2C%2075016%20Paris!5e0!3m2!1sen!2sfr!4v1687795567890!5m2!1sen!2sfr"
           width="100"
-          height="100"
+          height="300"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
-        >
-        </iframe>
+        ></iframe>
       </section>
-      <!-- Footer -->
+
       <section class="about-contact">
         <div>
           <h2>À propos de notre hôtel</h2>
@@ -121,31 +121,26 @@
         </div>
 
         <div class="reseaux">
-          <ul></ul>
-          <li><h2>Contact</h2></li>
-          <li>23 avenue des Nations Unies 75001 Paris</li>
-          <li>
-            <img src="logo/tel-blanc.png" alt="logo téléphone" />
-          </li>
+          <ul>
+            <li><h2>Contact</h2></li>
+            <li>23 avenue des Nations Unies 75001 Paris</li>
+            <li>
+              <img src="logo/tel-blanc.png" alt="logo téléphone" />
+            </li>
 
-          <li><h2>03 20 01 02 03</h2></li>
-          <li><a href="mailto:info@ducsman.com">info@ducsman.com</a></li>
+            <li><h2>03 20 01 02 03</h2></li>
+            <li><a href="mailto:info@ducsman.com">info@ducsman.com</a></li>
+          </ul>
         </div>
 
-        <div class="info-logo">
+        <span class="infos-logo">
           <img src="logo/instagram.png" alt="instagram" />
           <img src="logo/twitter.png" alt="twitter" />
           <img src="logo/youtube.png" alt="youtube" />
           <img src="logo/facebook.png" alt="facebook" />
           <img src="logo/pinterest.png" alt="printerest" />
-        </div>
+        </span>
       </section>
     </main>
   </body>
-  <footer>
-    <p>
-      Mentions légales · Conditions Générales de Ventes · Politique de
-      confidentialité · © Copyright 2023 - Ducsman Group
-    </p>
-  </footer>
 </html>
