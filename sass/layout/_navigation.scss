@@ -4,8 +4,10 @@
 
 .title-p {
   font-family: "playfair display";
-  color: whitesmoke;
-  letter-spacing: 2px;
+  color: white;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  font-size: 20px;
 }
 
 .nav {
@@ -15,12 +17,16 @@
     margin: 10%;
     text-align: left;
     .title {
-      font-size: 24px;
+      font-size: 30px;
       color: #b3865b;
       margin: 0;
-      letter-spacing: 20px;
+      letter-spacing: 10px;
       margin-top: 0%;
     }
+  }
+  .or {
+    color: #b3865b;
+    text-decoration: none;
   }
 
   ul {
@@ -30,9 +36,9 @@
     flex-direction: column;
 
     a {
-      color: #fff;
+      color: rgb(148, 145, 145);
       text-decoration: none;
-      font-size: 16px;
+      font-size: 20px;
       transition: color 0.3s ease;
       &:hover {
         color: #b3865b;

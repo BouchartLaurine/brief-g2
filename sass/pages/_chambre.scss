@@ -41,12 +41,17 @@
 
   H1 {
     text-shadow: #111;
+    mix-blend-mode: inherit;
+    color: white;
   }
 
   h3 {
     color: whitesmoke;
   }
   .etoiles {
+    mix-blend-mode: difference;
+
+    margin: 0px;
     text-align: center;
     width: 100px;
     height: 30px;
@@ -152,4 +157,8 @@ footer {
     max-width: 16px;
     max-height: 16px;
   }
+}
+.or {
+  color: #b3865b;
+  text-decoration: none;
 }
