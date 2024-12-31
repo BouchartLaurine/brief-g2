@@ -1,6 +1,5 @@
 p {
   color: rgb(148, 145, 145);
-  width: auto;
 }
 h1 {
   color: whitesmoke;
@@ -35,6 +34,8 @@ body {
 }
 .room-details {
   display: flex;
+  justify-content: space-between;
+  gap: 10%;
 }
 ul {
   color: rgb(148, 145, 145);
@@ -60,10 +61,10 @@ h3 {
 }
 
 .Hero-text {
-  margin: 50px;
+  margin: 60px;
 }
 .Aménagements {
-  width: 60%;
+  width: 40%;
 }
 .btn {
   display: inline-block;
@@ -90,8 +91,7 @@ h4 {
 .about-contact {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
-  margin-top: 40px;
+  gap: 80px;
 
   div {
     color: #bbb;
@@ -109,4 +109,9 @@ h4 {
 .reseaux {
   margin-top: 5%;
   text-align: center;
+}
+.etoiles {
+  text-align: center;
+  width: 100px;
+  height: 30px;
 }
