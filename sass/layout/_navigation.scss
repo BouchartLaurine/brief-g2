@@ -1,11 +1,10 @@
 .etoiles {
-  margin-top: 10%;
+  margin: 10%;
 }
 
 .title-p {
   font-family: "playfair display";
   color: whitesmoke;
-  margin-left: 10%;
   letter-spacing: 2px;
 }
 
@@ -14,8 +13,10 @@ p {
 }
 
 .nav {
+  width: 30%;
   background-color: #111;
   .logo {
+    margin: 10%;
     text-align: left;
     .title {
       font-size: 24px;
@@ -28,14 +29,14 @@ p {
 
   ul {
     list-style: none;
-    gap: 25px;
+    gap: 18px;
     display: flex;
     flex-direction: column;
 
     a {
       color: #fff;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 16px;
       transition: color 0.3s ease;
       &:hover {
         color: #b3865b;

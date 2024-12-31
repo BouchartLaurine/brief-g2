@@ -4,7 +4,7 @@
   color: whitesmoke;
   text-align: center;
   position: relative;
-  height: 100vh;
+  height: 90vh;
 }
 
 .check {
@@ -15,7 +15,12 @@
       list-style-type: none;
     }
   }
+  .checkmark {
+    width: 20px;
+    height: 20px;
+  }
 }
+//room detail//
 .room-details {
   display: flex;
   justify-content: space-between;
@@ -29,10 +34,15 @@
 .heading {
   margin: 0;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+
+  H1 {
+    text-shadow: #111;
+  }
+
   h3 {
     color: whitesmoke;
   }
@@ -67,24 +77,24 @@
   }
   .flaticon-wifi {
     color: #b0844c;
-    margin: 2%;
+    margin-right: 3%;
   }
   .ti-alarm-clock {
     color: #b0844c;
-    margin: 2%;
+    margin-right: 3%;
   }
 
   .flaticon-breakfast {
     color: #b0844c;
-    margin: 2%;
+    margin-right: 3%;
   }
   .flaticon-towel {
     color: #b0844c;
-    margin: 2%;
+    margin-right: 3%;
   }
   .flaticon-swimming {
     color: #b0844c;
-    margin: 2%;
+    margin-right: 3%;
   }
 }
 
@@ -103,12 +113,15 @@
   padding-top: 5px;
 }
 
-.about {
+//section about-contact//
+/* About and Contact */
+.about-contact {
   display: flex;
   justify-content: space-between;
-  gap: 80px;
-
+  gap: 20px;
+  margin-top: 40px;
   div {
+    width: 48%;
     color: #bbb;
     a {
       text-decoration: none;
@@ -119,11 +132,24 @@
   }
 }
 
-.reseaux {
-  margin-top: 5%;
+footer {
   text-align: center;
-}
-.checkmark {
-  width: 20px;
-  height: 20px;
+  background-color: #111;
+  color: #777;
+  padding: 20px 0;
+  font-size: 12px;
+  border-top: 1px solid #333;
+  .reseaux {
+    margin-top: 0%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 6px;
+    margin: 10%;
+    padding-left: 10%;
+  }
+  .infos-logo {
+    max-width: 16px;
+    max-height: 16px;
+  }
 }
