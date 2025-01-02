@@ -153,25 +153,22 @@
     }
 
     .flaticon-phone,
-    .ti-check {
+    .ti-check,
+    .option_price {
       color: $color-h3;
     }
 
-    .grey,
-    .ti-close {
-      color: rgb(148, 145, 145);
-    }
-
-    .option-list {
+    .option_list {
       list-style-type: none;
       padding: 0;
 
       li {
         padding: 0.5em 0em;
+        color: rgb(148, 145, 145)
       }
     }
 
-    .gold {
+    .option_price {
       font-size: 2em;
     }
 
@@ -188,16 +185,18 @@
       }
 
 
-      .flaticon-phone {
+      .phone {
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-size: 3em;
 
-        .phone-info {
+        .flaticon-phone {
+          font-size: 3em;
+        }
+
+        &__info {
           display: flex;
           flex-direction: column;
-          font-size: 0.4em;
           padding-left: 1em;
 
           p {
@@ -222,5 +221,10 @@
     border: 1px solid green;
     display: flex;
     flex-flow: row wrap;
+
+    .service_index {
+      border: 1px solid yellow;
+      width: 30%;
+    }
   }
 }
