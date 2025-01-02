@@ -5,3 +5,20 @@
 .gallery {
   gap: 10px;
 }
+
+.btn {
+  background-color: #b3865b;
+  color: whitesmoke;
+  border: none;
+  height: 50px;
+  width: 200px;
+  button:hover {
+    background-color: #8e684a;
+    .button-submit {
+      font-weight: 400;
+      font-size: 1em;
+      color: whitesmoke;
+      letter-spacing: 5%;
+    }
+  }
+}
