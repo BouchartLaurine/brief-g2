@@ -28,7 +28,7 @@
         <li><a href="index.html">Accueil</a></li>
         <li><a href="#">À propos</a></li>
         <li><a href="chambre.html">Chambres & Suites</a></li>
-        <li><a href="restaurant.html">Restaurant</a></li>
+        <li><a href="#">Restaurant</a></li>
         <li><a href="#">Centre de bien-être</a></li>
         <li><a href="#">Actualité</a></li>
         <li>
@@ -102,15 +102,14 @@
     <section class="map">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9055605794966!2d2.288740815674204!3d48.86061107928708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdfc8d4f7d1%3A0x22b46e4b9f307cd!2s23%20Avenue%20des%20Nations%20Unies%2C%2075016%20Paris!5e0!3m2!1sen!2sfr!4v1687795567890!5m2!1sen!2sfr"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
       ></iframe>
     </section>
-    <!-- Footer -->
-    <!-- About -->
+  </main>
+  <!-- Footer -->
+  <!-- About -->
+  <footer>
     <section class="about-contact">
-      <div>
+      <div class="about-contact__about">
         <h2>À propos de notre hôtel</h2>
         <p>
           Le seul hôtel 5 étoiles de Paris. Lorem ipsum dolor sit amet
@@ -119,26 +118,31 @@
           dolore totam sapiente perferendis voluptatum iure ut numquam qui.
         </p>
       </div>
-      <!--  -->
-      <!--  -->
+
       <!-- Contact -->
-      <div class="reseaux">
-        <ul class="title-reseaux">
-          <li><h5 class="txt-reseaux">Contact</h5></li>
+      <div class="about-contact__contact">
+        <ul class="about-contact__contact__ul">
+          <li>
+            <h2 class="txt-reseaux">Contact</h2>
+          </li>
 
           <li>
-            23 avenue des Nations Unies
-            <br />
+            23 avenue des Nations Unies <br />
             75001 Paris
           </li>
+
           <li class="li-tel">
             <img src="logo/tel-blanc.png" alt="logo téléphone" id="logo-tel" />
             <h5 class="txt-reseaux">03 20 01 02 03</h5>
           </li>
-          <li><a href="mailto:info@ducsman.com">info@ducsman.com</a></li>
+
+          <li>
+            <a class="mail_footer" href="mailto:info@ducsman.com"
+              >info@ducsman.com</a
+            >
+          </li>
         </ul>
-        <!--  -->
-        <!--  -->
+
         <!-- Logo reseaux -->
         <ul class="li-logo">
           <li><img src="logo/instagram.png" alt="instagram" /></li>
@@ -149,13 +153,12 @@
         </ul>
       </div>
     </section>
-    <div>
-      <footer>
-        <p>
-          Mentions légales - Conditions Générales de Ventes - Politique de
-          confidentialité - © Copyright 2023 - Ducsman Group
-        </p>
-      </footer>
+
+    <div class="footer_footer">
+      <p>
+        Mentions légales - Conditions Générales de Ventes - Politique de
+        confidentialité - © Copyright 2023 - Ducsman Group
+      </p>
     </div>
-  </main>
+  </footer>
 </html>
