@@ -215,16 +215,30 @@
 
 
 .section5_index {
-  border: 1px solid red;
+
+  margin-top: 10em;
+
+  &__title {
+    padding-left: 2em;
+  }
 
   &__services {
-    border: 1px solid green;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
 
     .service_index {
-      border: 1px solid yellow;
-      width: 30%;
+      width: 25%;
+      margin: 2em;
+
+      span {
+        color: $color-h3;
+        font-size: 3em;
+      }
+
+      h2 {
+        font-size: 2em;
+      }
     }
   }
 }
