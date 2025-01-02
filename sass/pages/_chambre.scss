@@ -7,6 +7,9 @@
   height: 90vh;
 }
 
+.room-header {
+  border: 1px solid red;
+}
 .check {
   display: flex;
   ul {
@@ -68,6 +71,8 @@
     li {
       list-style-type: none;
       margin: 6%;
+      //clamp
+      font-size: clamp(1.125rem, 1.088rem + 0.16vw, 1.231rem);
     }
   }
   .ti-user {
