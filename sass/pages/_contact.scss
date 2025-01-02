@@ -3,6 +3,13 @@
   text-decoration: none;
 }
 
+.main-block {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 /* Main */
 .main-contact {
   margin-top: 0%;
@@ -28,6 +35,13 @@
   }
 }
 // Alignement texte, image
+.logo-infos {
+  display: flex;
+  flex-direction: column;
+  line-height: 1px; //Espacement entre les lignes
+}
+
+// Button
 .align {
   display: flex;
   align-items: center;
