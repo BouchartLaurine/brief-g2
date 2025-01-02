@@ -14,12 +14,11 @@
 
 @import "layout/footer";
 
-
 //Buttons
 
 @import "components/buttons";
 
-
 //Header
 
-@import "layout/header"
+@import "layout/header" // Footer
+  @import "/sass/layout/footer ";
