@@ -12,6 +12,7 @@
   &__contact {
     box-sizing: border-box;
     width: 48%;
+    color: rgb(148, 145, 145);
   }
 
   &__about {
@@ -33,7 +34,7 @@
       }
 
       .mail_footer {
-        color: whitesmoke;
+        color: rgb(148, 145, 145);
         text-decoration: none;
         border-bottom: 1px solid $color-h3;
       }

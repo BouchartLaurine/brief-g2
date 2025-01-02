@@ -1,15 +1,16 @@
 .overlay {
   background-size: cover;
-  width: 100%;
+  width: auto;
   color: whitesmoke;
   text-align: center;
   position: relative;
   height: 90vh;
 }
 
-.room-header {
-  border: 1px solid red;
+.main-bloc {
+  width: 80%;
 }
+
 .check {
   display: flex;
   ul {
@@ -41,11 +42,10 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-
   h3 {
     color: whitesmoke;
   }
-  .etoiles {
+  .tara {
     mix-blend-mode: difference;
 
     margin: 0px;
@@ -107,6 +107,8 @@
   padding: 20px 30px;
   background-color: rgb(80, 78, 78);
   color: white;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   border: none;
   cursor: pointer;
