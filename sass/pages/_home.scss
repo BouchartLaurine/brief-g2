@@ -112,6 +112,7 @@
   &__text,
   img {
     width: 50%;
+    background-color: $index-scndcolor;
   }
 
   &__text {
@@ -136,18 +137,15 @@
 
 
 .section4_index {
-  border: 1px solid blueviolet;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 
   &__bloc_option {
-    border: 1px solid red;
     background-color: $index-scndcolor;
-    padding: 2em;
+    padding: 3em;
     box-sizing: border-box;
-    width: 33%;
-
-
+    width: 18%;
 
 
     h2 {
@@ -188,9 +186,41 @@
         font-size: 3em;
         margin: 0;
       }
+
+
+      .flaticon-phone {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 3em;
+
+        .phone-info {
+          display: flex;
+          flex-direction: column;
+          font-size: 0.4em;
+          padding-left: 1em;
+
+          p {
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
     }
+  }
+}
 
 
 
+//SECTION 5
+
+
+.section5_index {
+  border: 1px solid red;
+
+  &__services {
+    border: 1px solid green;
+    display: flex;
+    flex-flow: row wrap;
   }
 }
