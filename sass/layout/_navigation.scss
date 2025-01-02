@@ -27,6 +27,9 @@
   }
 
   &__ul {
+    font-family: "Barlow Condensed";
+    letter-spacing: 3px;
+    font-weight: 500;
     list-style: none;
     gap: 18px;
     display: flex;
@@ -41,6 +44,31 @@
       &:hover {
         color: $color-h3;
       }
+    }
+  }
+
+  &__phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5em;
+
+    .flaticon-phone {
+      font-size: 3em;
+      color: $color-h3;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      padding-left: 1em;
+
+      p {
+        padding: 0;
+        margin: 0;
+        font-size: 2em;
+      }
+
     }
   }
 }
