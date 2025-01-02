@@ -1,7 +1,9 @@
 .about-contact {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
+  padding-top: 10em;
+  padding-bottom: 10em;
+
 
   h2 {
     font-size: 2em;
@@ -19,10 +21,17 @@
 
   &__contact {
     padding: 1em 20em;
-    border: 1px solid yellow;
 
     &__ul {
       list-style-type: none;
+
+      li {
+        margin-top: 1em;
+      }
+
+      .li-tel {
+        font-size: 1.5em;
+      }
 
 
       .mail_footer {
@@ -34,7 +43,6 @@
     }
 
     .li-logo {
-      border: 1px solid blue;
       display: flex;
       flex-direction: row;
       list-style: none;
@@ -44,5 +52,7 @@
 }
 
 .footer_footer {
+  background-color: $darkest;
   text-align: center;
+  padding: 2em;
 }
