@@ -1,22 +1,16 @@
-.etoiles {
-  margin: 10%;
-}
-
-.title-p {
-  font-family: "playfair display";
-  color: white;
-  letter-spacing: 1px;
-  margin-left: 10px;
-  font-size: 20px;
-}
-
 .nav {
   border: 1px solid red;
   width: 30%;
   background-color: #111;
+
   .logo {
     margin: 10%;
     text-align: left;
+
+    .etoiles {
+      margin: 10%;
+    }
+
     .title {
       font-size: 30px;
       color: $color-h3;
@@ -24,11 +18,16 @@
       letter-spacing: 10px;
       margin-top: 0%;
     }
+
+    .title-p {
+      font-family: "playfair display";
+      color: white;
+      letter-spacing: 1px;
+      margin-left: 10px;
+      font-size: 20px;
+    }
   }
-  .or {
-    color: $color-h3;
-    text-decoration: none;
-  }
+
 
   ul {
     list-style: none;
@@ -37,10 +36,11 @@
     flex-direction: column;
 
     a {
-      color: rgb(148, 145, 145);
+      color: $grey;
       text-decoration: none;
       font-size: 20px;
       transition: color 0.3s ease;
+
       &:hover {
         color: $color-h3;
       }
