@@ -31,6 +31,9 @@
     gap: 18px;
     display: flex;
     flex-direction: column;
+    .active {
+      color: $color-h3;
+    }
 
     a {
       color: $grey;
