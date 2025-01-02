@@ -9,8 +9,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="sass/main.css" />
+    <link rel="stylesheet" href="/ressources_Ducsman/css/flaticons.css" />
+    <link rel="stylesheet" href="ressources_Ducsman/css/themify-icons.css" />
   </head>
-  <body>
+  <body class="contact">
     <!-- Nav -->
 
     <nav class="nav">
@@ -25,104 +27,116 @@
       </div>
       <br />
       <ul class="nav__ul">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="#">À propos</a></li>
-        <li><a href="chambre.html">Chambres & Suites</a></li>
-        <li><a href="#">Restaurant</a></li>
-        <li><a href="#">Centre de bien-être</a></li>
-        <li><a href="#">Actualité</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">ACCEUIL</a></li>
+        <li><a href="#">À PROPOS</a></li>
+        <li><a href="chambre.html">CHAMBRES & SUITES</a></li>
+        <li><a href="#">RESTAURANT</a></li>
+        <li><a href="#">CENTRE DE BIEN-ETRE</a></li>
+        <li><a href="#">ACTUALITE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
       </ul>
+
+      <div class="nav__phone">
+        <span class="flaticon-phone"></span>
+
+        <div class="nav__phone__info">
+          <p>Informations & Réservations</p>
+
+          <p><span class="gold">03 20 01 02 03</span></p>
+        </div>
+      </div>
     </nav>
 
     <!-- End of nav -->
     <div class="main-block">
       <main class="main-contact">
         <!-- Contact header -->
-        <section class="contact-header">
-          <h2>Duscman</h2>
-          <p>
-            Nous sommes à votre disposition pour toute question concernant votre
-            séjour ou pour organiser votre voyage.
-          </p>
+        <div class="block-align">
+          <section class="contact-header">
+            <h2>Duscman</h2>
+            <p>
+              Nous sommes à votre disposition pour toute question concernant
+              votre séjour ou pour organiser votre voyage.
+            </p>
 
-          <ul class="logo-infos">
-            <li>
-              <img
-                src="logo/telephone.png"
-                height="30px"
-                width="30px"
-                alt="Téléphone"
-              />
-              <strong> Informations & Réservations :</strong>
-              <h3>03 20 01 02 03</h3>
-            </li>
-            <li>
-              <img
-                src="logo/email.png"
-                height="30px"
-                width="30px"
-                alt="E-mail"
-              />
-              <strong>E-mail :</strong>
-              <a href="mailto:info@ducsman-group.com" class="mail"
-                ><h3>info@ducsman-group.com</h3></a
-              >
-            </li>
-            <li>
-              <img
-                src="logo/espace-reserve.png"
-                height="30px"
-                width="30px"
-                alt="Adresse"
-              />
-              <strong>Adresse</strong>
-              <p>23 avenue des Nations Unies, 75001 Paris</p>
-            </li>
-          </ul>
-        </section>
+            <ul class="logo-infos">
+              <li>
+                <img
+                  src="logo/telephone.png"
+                  height="30px"
+                  width="30px"
+                  alt="Téléphone"
+                />
+                <strong> Informations & Réservations :</strong>
+                <h3>03 20 01 02 03</h3>
+              </li>
+              <li>
+                <img
+                  src="logo/email.png"
+                  height="30px"
+                  width="30px"
+                  alt="E-mail"
+                />
 
-        <!-- Contact form -->
-        <section class="contact-form">
-          <h2>Restons en contact</h2>
-          <form action="#" method="post">
-            <div class="form-group">
-              <input
-                type="text"
-                name="name"
-                placeholder="Votre nom *"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Votre e-mail *"
-                required
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="tel"
-                name="phone"
-                placeholder="Votre numéro de téléphone *"
-                required
-              />
-              <input
-                type="text"
-                name="subject"
-                placeholder="Sujet *"
-                required
-              />
-            </div>
-            <textarea
-              name="message"
-              placeholder="Votre message *"
-              required
-            ></textarea>
-            <button class="button-submit" type="submit">Envoyer</button>
-          </form>
-        </section>
+                <strong>E-mail :</strong>
+                <a href="mailto:info@ducsman-group.com" class="mail"
+                  ><h3>info@ducsman-group.com</h3></a
+                >
+              </li>
+              <li>
+                <img
+                  src="logo/espace-reserve.png"
+                  height="30px"
+                  width="30px"
+                  alt="Adresse"
+                />
+                <strong>Adresse</strong>
+                <p>23 avenue des Nations Unies, 75001 Paris</p>
+              </li>
+            </ul>
+          </section>
 
+          <!-- Contact form -->
+          <section class="contact-form">
+            <h2>Restons en contact</h2>
+            <form action="#" method="post">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Votre nom *"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Votre e-mail *"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Votre numéro de téléphone *"
+                  required
+                />
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Sujet *"
+                  required
+                />
+              </div>
+              <textarea
+                name="message"
+                placeholder="Votre message *"
+                required
+              ></textarea>
+              <button class="button-submit" type="submit">Envoyer</button>
+            </form>
+          </section>
+        </div>
         <!-- Map -->
         <section class="map">
           <iframe
@@ -134,8 +148,6 @@
       <!-- Footer -->
       <!-- Footer about -->
       <footer>
-        <!-- Footer -->
-        <!-- About -->
         <section class="about-contact">
           <div class="about-contact__about">
             <h2>À propos de notre hôtel</h2>
@@ -178,11 +190,21 @@
 
             <!-- Logo reseaux -->
             <ul class="li-logo">
-              <li><img src="logo/instagram.png" alt="instagram" /></li>
-              <li><img src="logo/twitter.png" alt="twitter" /></li>
-              <li><img src="logo/youtube.png" alt="youtube" /></li>
-              <li><img src="logo/facebook.png" alt="facebook" /></li>
-              <li><img src="logo/pinterest.png" alt="printerest" /></li>
+              <li>
+                <img src="logo/instagram.png" alt="instagram" />
+              </li>
+              <li>
+                <img src="logo/twitter.png" alt="twitter" />
+              </li>
+              <li>
+                <img src="logo/youtube.png" alt="youtube" />
+              </li>
+              <li>
+                <img src="logo/facebook.png" alt="facebook" />
+              </li>
+              <li>
+                <img src="logo/pinterest.png" alt="printerest" />
+              </li>
             </ul>
           </div>
         </section>
