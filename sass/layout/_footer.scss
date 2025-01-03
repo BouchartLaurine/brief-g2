@@ -33,7 +33,7 @@
   }
 
   &__contact {
-    padding: 1em 10em;
+    padding: 0em 10em;
 
     @media (max-width: 768px) {
       width: 100%;
@@ -43,6 +43,7 @@
 
     &__ul {
       list-style-type: none;
+      font-size: 1.5em;
 
       @media (max-width: 768px) {
         padding: 0%;
@@ -52,8 +53,12 @@
         margin-top: 1em;
       }
 
+      #logo-tel {
+        width: 1.25em;
+      }
+
       .li-tel {
-        font-size: 1.5em;
+        font-size: 1em;
       }
 
       .mail_footer {
