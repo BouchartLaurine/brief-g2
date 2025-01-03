@@ -12,7 +12,7 @@
   &__contact {
     box-sizing: border-box;
     width: 48%;
-    color: rgb(148, 145, 145);
+    color: $grey;
   }
 
   &__about {
@@ -20,7 +20,7 @@
   }
 
   &__contact {
-    padding: 1em 20em;
+    padding: 1em 10em;
 
     &__ul {
       list-style-type: none;
@@ -34,7 +34,7 @@
       }
 
       .mail_footer {
-        color: rgb(148, 145, 145);
+        color: $grey;
         text-decoration: none;
         border-bottom: 1px solid $color-h3;
       }
