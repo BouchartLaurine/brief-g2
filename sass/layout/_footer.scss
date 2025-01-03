@@ -3,7 +3,12 @@
   justify-content: space-between;
   padding-top: 10em;
   padding-bottom: 10em;
-
+  @media (max-width: 768px) {
+    display: inline-block;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
   h2 {
     font-size: 2em;
   }
@@ -17,13 +22,27 @@
 
   &__about {
     padding-left: 5em;
+    @media (max-width: 768px) {
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+    }
   }
 
   &__contact {
     padding: 1em 10em;
 
+    @media (max-width: 768px) {
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+    }
+
     &__ul {
       list-style-type: none;
+      @media (max-width: 768px) {
+        padding: 0%;
+      }
 
       li {
         margin-top: 1em;
