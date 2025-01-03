@@ -5,6 +5,11 @@
 .right {
   width: 80%;
   margin-left: 20%;
+
+  @media (max-width:768px) {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 

@@ -1,3 +1,35 @@
+.burger_check {
+  display: none;
+}
+
+.burger_logo {
+  display: none;
+  z-index: 10;
+}
+
+
+
+
+
+@media (max-width:768px) {
+  .burger_logo {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger_check:checked~.nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
 .nav {
   width: 20%;
   background-color: $darkest;
