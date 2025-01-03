@@ -16,7 +16,7 @@
     display: none;
   }
 
-  .burger_check:checked ~ .nav {
+  .burger_check:checked~.nav {
     display: flex;
     flex-direction: column;
     z-index: 9;
