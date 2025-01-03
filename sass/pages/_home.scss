@@ -23,6 +23,7 @@
   width: 100%;
   padding: 3em;
 
+
   &__text {
     width: 90%;
     padding: 5em;
@@ -41,6 +42,7 @@
     }
   }
 }
+
 
 
 
@@ -72,10 +74,18 @@
 
       &:nth-of-type(-n+3) {
         width: 29%;
+
+        @media (max-width:768px) {
+          width: 80%;
+        }
       }
 
       &:nth-of-type(n+4):nth-child(-n+5) {
-        width: 46%
+        width: 46%;
+
+        @media (max-width:768px) {
+          width: 80%;
+        }
       }
 
       & img {
@@ -252,5 +262,16 @@
         font-size: 2em;
       }
     }
+  }
+}
+
+
+
+
+.section1_index,
+.section3_index,
+.section4_index {
+  @media (max-width:768px) {
+    display: inline-block;
   }
 }
