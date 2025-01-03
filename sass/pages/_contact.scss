@@ -103,11 +103,23 @@
 }
 
 //  Contact form
-.contact-form {
-  margin-left: 10%;
+.form-group-row {
   display: flex;
-  flex-direction: column;
-  padding-left: 20%;
+  gap: 10px;
+  margin-bottom: 15px;
+  .form-group-row input {
+    flex: 1;
+    min-width: 150px;
+    textarea {
+      width: 100%;
+      resize: none;
+      height: 120px;
+      .button-submit {
+        width: 150px;
+        align-self: flex-start;
+      }
+    }
+  }
 }
 
 // Title + Restons en contact
