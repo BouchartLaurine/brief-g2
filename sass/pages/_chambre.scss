@@ -22,11 +22,11 @@
 .check {
   display: flex;
   flex-wrap: wrap;
-  font-size: 1.2em;
   ul {
     color: rgb(148, 145, 145);
     li {
       list-style-type: none;
+      font-size: 1.5em;
     }
   }
   .checkmark {
@@ -97,8 +97,7 @@
     li {
       list-style-type: none;
       margin: 6%;
-      //clamp
-      font-size: clamp(1.125rem, 1.088rem + 0.16vw, 1.231rem);
+      font-size: 1.3em;
     }
   }
   .ti-user {
