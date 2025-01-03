@@ -15,16 +15,19 @@ h1 {
   margin: 0;
   color: white;
 
-  @media (max-width:768px) {
-    font-size: 2em;
+  @media (max-width: 768px) {
+    font-size: 3em;
+    letter-spacing: 10px;
   }
-
 }
 
 h2 {
   font-weight: 400;
   font-size: 3em;
   color: whitesmoke;
+  @media (max-width: 768px) {
+    font-size: 2em;
+  }
 }
 
 h3 {
@@ -32,17 +35,27 @@ h3 {
   font-weight: 400;
   color: $color-h3;
   font-size: 2em;
+  @media (max-width: 768px) {
+    font-size: 1em;
+  }
 }
 
 h4 {
   text-align: center;
   font-family: "playfair display";
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: lighter;
-  color: #b0844c;
+  color: $color-h3;
+  @media (max-width: 768px) {
+    font-size: 2em;
+  }
 }
 
 p {
   color: rgb(148, 145, 145);
-  font-size: larger;
+  font-size: 1em;
+  @media (max-width: 768px) {
+    font-size: 1em;
+    margin: auto;
+  }
 }

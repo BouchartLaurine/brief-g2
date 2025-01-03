@@ -5,11 +5,18 @@
   text-align: center;
   position: relative;
   height: 90vh;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .main-bloc {
   width: 80%;
   margin-left: 20%;
+  @media (max-width: 768px) {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 .check {
@@ -24,16 +31,24 @@
   .checkmark {
     width: 20px;
     height: 20px;
+    @media (max-width: 768px) {
+      display: inline-block;
+    }
   }
 }
 //room detail//
 .room-details {
   display: flex;
-
   justify-content: space-between;
   gap: 10%;
   margin-right: 10%;
   flex-wrap: wrap;
+  @media (max-width: 768px) {
+    display: inline;
+    gap: 0%;
+    width: 100%;
+    margin: 0%;
+  }
 }
 
 .Ducsman {
@@ -61,6 +76,9 @@
 
 .Hero-text {
   margin: 60px;
+  @media (max-width: 768px) {
+    margin: 10px;
+  }
 }
 .Aménagements {
   width: auto;
