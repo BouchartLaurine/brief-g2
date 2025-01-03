@@ -14,6 +14,7 @@
 
 .check {
   display: flex;
+  flex-wrap: wrap;
   ul {
     color: rgb(148, 145, 145);
     li {
@@ -28,9 +29,11 @@
 //room detail//
 .room-details {
   display: flex;
+
   justify-content: space-between;
   gap: 10%;
   margin-right: 10%;
+  flex-wrap: wrap;
 }
 
 .Ducsman {
